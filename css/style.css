@@ -1,0 +1,35 @@
+.ball{
+ width: 100%;
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    border:2px solid #000;
+    margin-right: 10px;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.item:nth-child(1){
+    background-color: #35f535;
+}
+
+.item:nth-child(2){
+    background-color: #bfdc00;
+}
+
+.item:nth-child(3){
+    background-color: #f21e1e;
+}
+
+
+.ocorrencia{
+    width: 600px;
+    height: 150px;
+    background-color: #35f535;
+}
